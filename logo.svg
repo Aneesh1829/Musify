@@ -1,0 +1,30 @@
+<svg width="64" height="64" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEFA; stop-opacity:1" />  
+      <stop offset="100%" style="stop-color:#6A5ACD; stop-opacity:1" /> 
+    </linearGradient>
+ 
+    <linearGradient id="gradRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1; stop-opacity:1" />  
+      <stop offset="100%" style="stop-color:#FF69B4; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="9" cy="14" r="3" fill="url(#gradLeft)" />
+  <circle cx="17" cy="10" r="3" fill="url(#gradRight)" />
+
+  <path d="M9 11 L9 2 L17 4 L17 10" stroke="#FFD700" stroke-width="1.5" fill="none"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="5" cy="7" r="2.5" stroke="#BA55D3" stroke-width="1.5" fill="#8A2BE2"/>
+  <rect x="3.5" y="5.5" width="3" height="5" rx="1.5" stroke="#BA55D3" stroke-width="1.5" fill="none"/>
+
+  <path d="M5 4V2" stroke="#BA55D3" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <rect x="12" y="16" width="8" height="4" fill="#2F4F4F"/>
+  <rect x="12.5" y="16" width="1" height="2.5" fill="white"/>
+  <rect x="14" y="16" width="1" height="2.5" fill="white"/>
+  <rect x="15.5" y="16" width="1" height="2.5" fill="white"/>
+  <rect x="17" y="16" width="1" height="2.5" fill="white"/>
+</svg>

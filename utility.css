@@ -1,0 +1,58 @@
+.border{
+  border: 2px solid red;
+  margin: 3px;
+}
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.item-center{
+  align-items: center;
+}
+
+.bg_black{
+  background-color: black;
+  color: white;
+}
+
+.invert{
+  filter: invert(1);
+}
+
+.bg-grey{
+  background-color: rgb(54, 50, 50);
+}
+.rounded{
+  border-radius: 7px;
+}
+.m1{
+  margin: 5px;
+}
+
+/* Works on Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 10px; /* Width of vertical scrollbar */
+  height: 10px; /* Height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Dark background for the track */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333; /* Darker color for the thumb */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Lighter shade when hovered */
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #1a1a1a;
+}
